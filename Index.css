@@ -13,24 +13,43 @@ body{
     font-family: "roboto", sans-serif;
     margin: 0;
 }
+
 .card_offset{
     margin-top: -200px;
-    position: relative;
-    padding: 20px 0;
-    width: 100%;
-    background: #fff;
-    border-radius: 3px;
-    box-shadow: 0 0 1px rgba(0,0,0,.5);
-    overflow: hidden;
-    text-align: center;
-    z-index: 5;
 }
 .frame{
     max-width: 730px;
     margin: auto;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden; 
 }
-
+frame .card_offset .card{
+    position: relative;
+    padding-top: 20px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    width: 100%;
+    background: #fff;
+    background-color: rgb(255, 255, 255);
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-image: none;
+    background-size: auto;
+    background-origin: padding-box;
+    background-clip: border-box;
+    border-radius: 3px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    box-shadow: 0 0 1px rgba(0,0,0,0.5);
+    overflow: hidden;
+    text-align: center;
+    z-index: 5;
+}
 
 h1{font-size: 3.5em;}
 h2{font-size: 2.7em;}
