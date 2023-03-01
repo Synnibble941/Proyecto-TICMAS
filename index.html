@@ -7,73 +7,154 @@
     <title>"PROYECTO FINAL TICMAS"</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="Styles.css">
-   
+   <!-- GOOGLE FONTS -->
+   <link href="https://fonts.googleapis.com/css?family=Saira+Stencil+One:100,200,300,400,500,600,700,800,900"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i"
+    rel="stylesheet">
     
   
 </head>
 
 <body>
-  <script src="https://kit.fontawesome.com/8bdcd58d47.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  
 
-    <!--MENU LATERAL-->
-    <nav class="left-menu bg-success-subtle">
+    <nav class="left-menu">
         <div class="interior-menu">
-            <img class="rounded-circle profile-photo" src="imagenes\foto-usuario.png" alt="foto de usuario" width="310" height="250">
+            <img class="profile-photo rounded-circle" src="imagenes\foto-usuario.png" alt="foto de usuario" width="310" height="225">
             <h4>Cosme Fulanito</h4>
             <p>Desarrollador Front-End</p>
             
 
-            <div class="justify-content-center p-3 text-warning-emphasis bg-warning-subtle border border-warning-subtle rounded-3">
+            <div class="d-flex justify-content-center">
               <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Sobre mi</button>
-                <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="true">Experiencia</button>
-                <button class="nav-link" id="v-pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#v-pills-disabled" type="button" role="tab" aria-controls="v-pills-disabled" aria-selected="false">Disabled</button>
-                <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</button>
-                <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</button>
+                <button class="nav-link" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Sobre mi</button>
+                <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Experiencia</button>
+                <button class="nav-link" id="v-pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#v-pills-disabled" type="button" role="tab" aria-controls="v-pills-disabled" aria-selected="false">Educacion</button>
+                <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Habilidades</button>
+                <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Contacto</button>
               </div>
-              </div>
-              </div>
+            </div>
+        </div>
 
-              <div class="tab-content" id="v-pills-tabContent">
-                <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab" tabindex="0"><h1>Cosme <span>Fulanito</span></h1>
-                <h4>GONZALEZ CATAN · PCIA DE BUENOS AIRES - ARGENTINA · +54911 56894565 · <a href="mailto:enelmercho_escuchandofercho@email.com">COSMEFULANITO@</a></h4>
-                <p>Actualmente trabajo como desarrollador web freelance y continúo perfeccionando mis habilidades como
-                  desarrollador full-stack. Tengo una base sólida en diseño gráfico, editorial y modelado 3D que influyen en
-                  mis proyectos. Estoy permanentemente perfeccionando y actualizando mis habilidades para seguir trabajando a la
-                  vanguardia con las nuevas tendencias.</p>
-                    
-                     <div class="social">
-                     <ul class="social-list">
-                    
+          <!--FIN MENU LATERAL-->
+       
+          <!-- CONTENIDO DE LOS ENLACES -->
+            <div class="tab-content" id="v-pills-tabContent">
+              <div class="tab-pane fade" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab" tabindex="0"><h1>Cosme <span>Fulanito</span></h1>
+              <h4>GONZALEZ CATAN · PCIA DE BUENOS AIRES - ARGENTINA · +54911 56894565 · <a href="mailto:enelmercho_escuchandofercho@email.com">COSMEFULANITO@</a></h4>
+              <p>Actualmente trabajo como desarrollador web freelance y continúo perfeccionando mis habilidades como
+                desarrollador full-stack. Tengo una base sólida en diseño gráfico, editorial y modelado 3D que influyen en
+                mis proyectos. Estoy permanentemente perfeccionando y actualizando mis habilidades para seguir trabajando a la
+                vanguardia con las nuevas tendencias.</p>
+                  
+                   <div class="social">
+                   <ul class="social-list">
+                        <li class="social-icon">
                           <a href="https://github.com/iamcosmefulanito" target="_blank"><i class="fa fa-github fa-inverse"></i></a>
-                      
-                                                     
+                        </li>
+                        <li class="social-icon">
                           <a href="https://t.me/iamcosmefulanito" target="_blank"><i class="fa fa-telegram fa-inverse"></i></a>
-                           
-                                                    
-                          <a href="https://linkedin.com/iamcosmefulanito" target="_blank"><i class="fa fa-linkedin fa-inverse"></i></a>
-                          
-                                                   
+                        </li>
+                        <li class="social-icon">
+                          <a href="https://linkedin.com/iamcosmefulanito" target="_blank"><i class="fa fa-linkedin fa-inverse"></i></a>                        
+                        </li>
+                        <li class="social-icon">
                           <a href="https://instagram.com/iamcosmefulanito" target="_blank"><i class="fa fa-instagram fa-inverse"></i></a>
-                          
-                      </ul>
-                    </div>
-                    <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab" tabindex="0"></div>
-                    <div class="tab-pane fade" id="v-pills-disabled" role="tabpanel" aria-labelledby="v-pills-disabled-tab" tabindex="0">...</div>
-                    <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab" tabindex="0">...</div>
-                    <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">...</div>
+                        </li>
+                    </ul>
                   </div>
-
-
+                </div>    
+        
+            <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab" tabindex="0">
+              <h3>Diseñador web</h3>
+              <h4>Cosme design</h4>
+              <p>Como desarrollador web trabajé en proyectos variados que me permitieron adquirir amplias habilidades y
+                conocimientos en el campo. Uno de mis puntos fuertes es el desarrollo de aplicaciones web utilizando HTML,
+                CSS y JavaScript creando interfaces de usuario atractivas, funcionales e interactivas usando frameworks y
+                librerías populares como Bootstrap, jQuery y AngularJS para acelerar el desarrollo y aumentar la eficiencia.
+              </p>
+              <span class="fecha">Enero 2015 / Presente<i class="fa-solid fa-calendar-days"></i></span>
+              
+              <h3>Diseñador gráfico/editor</h3>
+              <h4>Estudio de diseño furrell</h4>
+              <p>Experiencia en diseño gráfico y editorial trabajando en una variedad de proyectos, desde la creación de
+                 logotipos y diseños de marca, hasta la maquetación y diseño de libros y revistas. Manejo una amplia gama de
+                 software de diseño, como Adobe Creative Suite, y me mantengo actualizada con las últimas tendencias y
+                 técnicas de vanguardia para poder ofrecer una alta calidad a mis clientes.</p>
+              <span class="fecha">Enero 2008 / Agosto 2015<i class="fa-solid fa-calendar-days"></i></span>
+            
+            </div>
+              
+            <div class="tab-pane fade" id="v-pills-disabled" role="tabpanel" aria-labelledby="v-pills-disabled-tab" tabindex="0">
+                <h2>Educacion</h2>             
+                <h3>Argentina programa 4.0</h3>
+                <h4>Introducción al desarrollo front-end - ticmas</h4>
+                <p>Curso Primeros pasos del desarrollo frontend.</p>
+                <span class="fecha">Enero 2023 / Febrero 2023<i class="fa-solid fa-calendar-days"></i></span>
+        
+                <h3>Argentina programa</h3>
+                <h4>#Seprogramar - inti</h4>
+                <p>Curso Introductorio a la programación - Ruby/JS/Gobstones. *Esperando certificado.</p>
+                <span class="fecha">Septiembre 2022 - Noviembre 2022<i class="fa-solid fa-calendar-days"></i></span>
+        
+                <h3>Platzi</h3>
+                <h4>Curso básico de programación</h4>
+                <p>Curso Introductorio a la programación - Ruby/JS/Gobstones. *Esperando certificado.</p>
+                <span class="fecha">Agosto 2022<i class="fa-solid fa-calendar-days"></i></span>
+        
+                <h3>platzi</h3>
+                <h4>new relic: observabilidad, monitoreo y performance web</h4>
+                <p>Implementación y mantenimiento de Cloud DevOps.</p>
+                <span class="fecha">Julio 2022<i class="fa-solid fa-calendar-days"></i></span>
+            </div>
+            
+            <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab" tabindex="0"><h3>lenguajes de programación y herramientas</h3>
+              <ul class="lista-iconos list-inline">
+                <li class="icono-skill list-inline-item"><i class="fa-brands fa-html5"></i></li>
+                <li class="icono-skill list-inline-item"><i class="fa-brands fa-css3-alt"></i></li>
+                <li class="icono-skill list-inline-item"><i class="fa-brands fa-js"></i></li>
+                <li class="icono-skill list-inline-item"><i class="fa-brands fa-angular"></i></li>
+                <li class="icono-skill list-inline-item"><i class="fa-brands fa-node-js"></i></li>
+                <li class="icono-skill list-inline-item"><i class="fa-brands fa-bootstrap"></i></li>
+                <li class="icono-skill list-inline-item"><i class="fa-brands fa-wordpress"></i></li>
+              </ul>
+        
+              <h4>workflow</h4>
+              <ul class="fa-ul mb-0">
+              <li><i class="fa-li fa fa-check"></i>Adobe Creative Suite</li>
+              <li><i class="fa-li fa fa-check"></i>Mobile-First. Diseño Responsivo</li>
+              <li><i class="fa-li fa fa-check"></i>Vanilla, Angular - NodeJS - Bootstrap</li>
+              <li><i class="fa-li fa fa-check"></i>Desarrollo en Worpress</li>
+              </ul>
+            </div>
+        
+            <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0"><h2>contacto</h2>
+              <div class="u-wrapper">
+                <div class="contenido-form">
+                  <form id="form" action="" class="form">
+                    <h3>HABLEMOS</h3>
+                    <label for="name">Nombre y Apellido *</label>
+                    <input name="name" required type="text" id="name" placeholder="Tu nombre">
+                    <label for="email">Correo electrónico *</label>
+                    <input name="email" type="text" id="email" required placeholder="tucorreo@servidor.com">
+                    <label for="message">Mensaje</label>
+                    <textarea id="message" name="message" id="" cols="30" rows="10"></textarea>
+                    <button type="submit" class="btn-form primary">enviar mensaje</button>
+                  </form>
+                  <a href="enelmercho_escuchandoafercho@email.com" id="envio-mail">mail</a>
                 </div>
-                      
-                      
-         
-        </nav>
-    <!--FIN MENU LATERAL-->
+          
+         </div>
+        </div>
+        </div>
+      </nav>
+
 
     <!--INICIO SECCION DERECHA-->
+    
 
+    <script src="https://kit.fontawesome.com/8bdcd58d47.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>

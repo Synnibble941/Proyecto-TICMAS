@@ -1,17 +1,72 @@
-
+:root{
+  --primario:#000000;
+  --negro:rgb(86, 88, 89);
+  --white:#ffffff;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.2s linear;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -ms-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+}
 body{
   font-family: 'Open Sans', sans-serif;
   color: var(--negro);
-  background: #f1f1f1;
+  background: #978d8d;
   background-attachment: fixed;
 
 }
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Saira Stencil One',serif;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+h1{
+  font-size: 6rem;
+  font-weight: bold;
+  line-height: 5rem;
+}
+
+h1 span{
+  color:var(--primario);
+  background: -webkit-linear-gradient(-45deg, var(--primario) 30%, var(--negro) 100%);
+  -webkit-background-clip: text !important;
+  background-clip:content-box;
+  -webkit-text-fill-color: transparent !important;
+  background-color: var(--primario);
+}
+
+h2{
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--primario);
+}
+
+h3{
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding-top:2rem;
+}
+
+h4{
+  font-size: 1.3rem;
+}
+
+ul{
+  list-style-type: none;
+  margin:0;
+  padding: 0;
+}
+
    
-  /* Estilos para el MENU LATERAL */
+
   .left-menu {
     display: flex;
-    width:100%;
-    height: 100%;
+    width: 100%;
     align-items: center;
     justify-content: center;
     position: center;
@@ -23,13 +78,23 @@ body{
   
 
   .interior-menu{
+    height: 100%;
     display: block;
     align-items: center;
     justify-content: center;
     text-align: center;
+    background-color: rgb(48, 47, 46);
     
   }
+  .interior-menu .profile-photo{
+      border-radius: 50%;
+      width: 300px;
+      border: 1rem solid rgb(255,255,255,.2);
+    }
   
+  .v-pills-tabContent .fecha i{
+    padding: .2rem 0 0 .3rem;
+  }
 
   .interior-menu h4{
     color:black;
@@ -42,8 +107,76 @@ body{
     font-size: .9rem;
   }
   
-
+.social-list{
+    display: flex;
+}
+.social-icon{
+  margin: 2rem .8rem 0 0;
+  font-size: 1.6rem;
+  font-size: 2rem;
+  width: 3.5rem;
+  height: 3.5rem;
+  text-align: center;
+  padding: 4px 0;
+  border-radius: 50%;
+  cursor: pointer;
+}
 .social i{
   font-size: 50px;
+
+}
+
+
+/* Estilo de FORMULARIO */
+.form {
+  max-inline-size: 550px;
+}
+
+.form label {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: .5em;
+  padding-inline-start: .5em;
+}
+
+.btn-form{
+  background: initial;
+  cursor: pointer;
+  user-select: none;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 35px;
+  border: 1px dotted var(--primario);
+  font-weight: bold;
+  padding: 0 1.5em;
+  color: var(--primario);
+  width: 100%;
+}
+
+.btn-form:hover{
+  background: var(--primario);
+  color:white;
+}
+
+.form label {
+  color: var(--primario);
+}
+
+.form input, .form textarea {
+  width: 100%;
+  padding: .8em;
+  border: 1px dotted var(--negro);
+}
+
+.form textarea {
+  margin-block-end: 2em;
+}
+
+input::-webkit-input-placeholder {
+  color: var(--primario);
+}
+
+#envio-mail {
+  opacity: 0;
 }
 
